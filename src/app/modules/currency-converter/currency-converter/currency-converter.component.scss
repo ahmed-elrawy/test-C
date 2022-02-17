@@ -1,0 +1,228 @@
+@import '../../../../assets/styles/abstructs/varibles';
+
+// select{
+//   border-radius: 4px;
+//   width: 7rem;
+//   height: 38px;
+//   line-height: 38px;
+//   padding-left: 5px;
+//   -webkit-border-radius: 4px;
+//   -moz-border-radius: 4px;
+//   -ms-border-radius: 4px;
+//   -o-border-radius: 4px;
+// }
+// input {
+//   border-radius: .4rem;
+//   font-size: large;
+//   height: 3.5repx;
+//   width: 14rem;
+//   line-height: 38px;
+//   padding-left: 5px;
+//   -webkit-border-radius: .4rem;
+//   -moz-border-radius: .4rem;
+//   -ms-border-radius: .4rem;
+//   -o-border-radius: .4rem;
+// }
+
+
+// .swap {
+//   display: inline;
+//   color: rgb(10, 10, 10);
+//   width: 8rem;
+//   height: 8rem;
+//   margin: auto 2rem auto 2rem;
+// }
+// input::-webkit-outer-spin-button,
+// input::-webkit-inner-spin-button {
+//   -webkit-appearance: none;
+//   margin: 0;
+// }
+
+// /* Firefox */
+// input[type=number] {
+//   -moz-appearance: textfield;
+// }
+
+
+// .button {
+//   width: 12rem ;
+//   height: 5rem;
+//   color: white;
+//   background-color: rgba($color: #000000, $alpha: .7);
+//   &a{
+//     text-decoration: none;
+
+//   }
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+// .bookmark-tile {
+//   display: flex;
+//   flex-direction: column;
+  
+//   justify-content: center;
+//   align-items: center;
+
+//   padding: 10px;
+  
+//   gap: 12px;
+  
+//   background: rgba(black, 0.55);
+//   border-radius: 5px;
+
+//   width: 110px;
+//   height: 105px;
+
+//   cursor: pointer;
+  
+//   transition: all 0.1s;
+  
+//   &:hover {
+//       background: rgba(black, 0.68);
+//       backdrop-filter: blur(2px);
+//   }
+
+//   &:active {
+//       background: rgba(black, 0.75);
+//       transform: translateY(2px);
+//       transition-duration: 0s;
+//   }
+// }
+
+
+
+
+
+
+
+
+
+//////////////////@at-root
+
+// .add-bookmark-wrapper {
+//   // max-width: 70rem;
+
+//   padding: 3.5rem;
+//   border-radius: 5px;
+
+//   max-height: 100%;
+// }
+
+// .currency{
+//   display: inline-block;
+//   width: 12rem;
+// }
+
+// .detais{
+//   background: rgba(black, 0.7);
+//   max-width: 50rem;
+//   min-height: 10rem;
+//   max-height: 20rem;
+//   color: white;
+
+
+// }
+
+
+
+.container {
+  text-align: center;
+}
+
+
+.add-bookmark-wrapper {
+  padding: 35px;
+  border-radius: 5px;
+  max-height: 100%;
+}
+
+
+
+.currency{
+  display: inline-block;
+  margin: 1rem;
+}
+
+
+.form-field {
+  margin-bottom: 20px;
+
+
+  label.form-label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: 600;
+      color: rgba($color-black, 0.8);
+  }
+}
+
+.textbox,
+.textarea {
+  
+
+
+  border: 2px solid rgba(black, 0.3);
+  border-radius: 4px;
+  
+  background-color: rgba(white, 0.9);
+  
+  padding: .8rem 1rem;
+  
+  width: 100%;
+
+
+}
+
+.textarea {
+  resize: vertical;
+  min-height: 10rem;
+}
+
+
+.detais{
+  align-content: center;
+  background: rgba($color-dark, 0.7);
+  max-width: 50rem;
+  min-height: 8rem;
+  max-height: 20rem;
+  margin:  auto;
+
+  color: white;
+
+
+}
+
+.amount{
+  width: 50%;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .add-bookmark-wrapper {
+    // max-width: 70rem;
+    // white-space: nowrap;
+    
+    padding: 1rem;
+ 
+  }
+
+  .detais{
+    background: rgba(black, 0.7);
+    max-width: 30rem;
+    min-height: 10rem;
+    max-height: 20rem;
+    color: white;
+  
+  
+  }
+}
